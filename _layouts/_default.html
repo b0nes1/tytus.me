@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Tytus.me" />
+    <link rel="manifest" href="/site.webmanifest" />
+</head>
+
+<body>
+    <header>
+        <div class="nametag">
+            <h1>Tytus Walkowiak</h1>
+            <h3>Medicinal Chemist</h3>
+        </div>
+        <img class="headshot" src="headshot low.jpg">
+    </header>
+
+    {{ content}}
+    <div class="postsdiv">
+        <h2>Posts:</h2>
+            {% for post in site.posts %}
+                <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+            {% endfor %}
+         
+    </div>
+    <div class="socials">
+        <a id="linkedin" href="https://www.linkedin.com/in/tytusw/"></a>
+        <a id="email" href="mailto:Tytus@Tytus.me"></a>
+    </div>
+
+
+    <footer>
+        <p>© 2026 Tytus Walkowiak 🧪</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
