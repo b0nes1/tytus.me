@@ -140,6 +140,16 @@
         </div>
     </div>
 
+    <div class="postsdiv">
+        <h2>Posts:</h2>
+            {% for post in site.posts %}
+                <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+            {% endfor %}
+
+         
+    </div>
     <div class="socials">
         <a id="linkedin" href="https://www.linkedin.com/in/tytusw/"></a>
         <a id="email" href="mailto:Tytus@Tytus.me"></a>
