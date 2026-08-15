@@ -81,8 +81,7 @@ ul {
 
 @media (max-width: 45em) {
     ul {
-    margin: 0.5rem 0 1.5rem 0rem;
-
+        margin: 0.5rem 0 1.5rem 0rem;
     }
 
     body {
@@ -90,6 +89,7 @@ ul {
     }
 
     .headshot {
+        max-width: 120px;
         width: 100%;
     }
 }
