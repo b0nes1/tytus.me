@@ -1,9 +1,11 @@
+# Capstone Project
+
 In my final year of university, I undertook a capstone project in supramolecular chemistry under the supervision of Prof. Thorfinnur Gunnlaugsson. The subject of my work was to investigate the properties of a particular ligand and study how structural tweaks could change the way it behaves.
 
-# Supramolecular Chemistry?
+## Supramolecular Chemistry?
 Supramolecular chemistry involves the design of molecules with deliberately engineered interactions between one another which allow them to self-assemble into more complex structures. Aside from being structurally interesting, supramolecular systems can be exploited for use in chemical sensors, functional materials such as self-healing gels or antibacterial coatings, or for biomaterials used for medical purposes.
 
-# What is BTP?
+## What is BTP?
 BTP stands for 2,6-bis(1,2,3-triazol-4-yl)pyridine, and it is a relatively new chemical scaffold for supramolecular and coordination chemistry. It is distinguished by:
 
 - Its ability to bind both anions *and* cations.
@@ -11,12 +13,12 @@ BTP stands for 2,6-bis(1,2,3-triazol-4-yl)pyridine, and it is a relatively new c
 - It can be functionalized at multiple positions to achieve a desired coordination effect.
 - It is a tridentate, chelating ligand (an analogue of Terpyridine).
 
-# Scope Of Project:
+## Scope Of Project:
 Throughout the last decade, the Gunnlaugsson Group have been at the forefront of BTP research for coordination chemistry and have focused on understanding how different structures can be attached to the BTP scaffold to reach a desired effect.
 
 My project was a continuation of that effort, and focused on functionalizing a previously studied BTP-containing ligand at a particular position on the side-chain. The target ligands are shown below:
 
-# Findings:
+## Findings:
 My research demonstrated that the nitro and methoxy ligands could not be synthesised through a normally reliable click-chemistry approach, suggesting steric or electronic disruption of the CuAAC click mechanism.
 
  The fluoro ligand was successfully synthesised, fully chraracterised, and the following properties were recorded:
