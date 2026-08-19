@@ -1,0 +1,11 @@
+<nav class="sidebar">
+    <ul>
+        <li><a class="{% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a class="{% if page.url == '/CV' %}active{% endif %}" href="{{ '/CV' | relative_url }}">CV</a></li>
+        <hr>
+        <span style="      font-weight: 1000;color: #0244ab">Projects:</span>
+        {% for post in site.posts %}
+        <li><a class="{% if page.url == post.url %}active{% endif %}" href="{{ post.url | relative_url }}">{{ post.title}}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
