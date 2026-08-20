@@ -5,9 +5,10 @@ layout: posts
 # Capstone project
 
 In my final year of university, I undertook a capstone project in supramolecular chemistry under the supervision of [Prof. Thorfinnur Gunnlaugsson](https://thorrigunnlaugsson.wordpress.com/). My work investigated the properties of a particular BTP-based ligand and studied how addition of functional groups at a key position could change its behaviour.
-![image](/assets/ThorrisHammers.png)
-![image](/assets/TytusLab.jpeg)
-
+<div class="img-side-by-side">
+  <img src="/assets/ThorrisHammers.png">
+  <img src="/assets/TytusLab.jpeg" >
+</div>
 ## Supramolecular chemistry?
 Supramolecular chemistry involves designing molecules with deliberately engineered interactions that allow them to self-assemble into more complex structures. Aside from being structurally interesting, supramolecular systems can be exploited for chemical sensors, functional materials such as self-healing gels or antibacterial coatings, and biomaterials for medical purposes.
 
@@ -21,14 +22,14 @@ BTP stands for *2,6-bis(1,2,3-triazol-4-yl)pyridine*, a relatively new chemical 
 
 ![image](/assets/BTP5.svg)
 
-## Scope of project
+## Scope of project:
 Over the last decade, the Gunnlaugsson Group has been at the forefront of BTP research for coordination chemistry, focusing on how different structures can be attached to the BTP scaffold to achieve a desired effect.
 
 My project continued this work, functionalizing a previously studied BTP-containing ligand at a particular position on the side chain. The target ligands are shown below:
 
 ![image](/assets/BTP6.svg)
 
-## Findings
+## Findings:
 My research showed that the nitro and methoxy ligands (2 & 3) could not be synthesised through a previously used click-chemistry approach, suggesting steric or electronic disruption of the CuAAC click mechanism.
 
 The fluoro ligand (1) was successfully synthesised and fully characterised, with the following properties recorded:
