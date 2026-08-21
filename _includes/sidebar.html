@@ -1,8 +1,6 @@
 <nav class="sidebar">
     <ul>
         <li><a class="{% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a class="{% if page.url == '/CV/' %}active{% endif %}" href="{{ '/CV' | relative_url }}">CV</a></li>
-        <li><a class="{% if page.url == '/skills/' %}active{% endif %}" href="{{ '/skills' | relative_url }}">Skills</a></li>
         <hr>
         <span class="sidebar-section-title">Projects:</span>
         {% for post in site.posts %}
