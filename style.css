@@ -8,12 +8,31 @@ body {
     min-height: 100vh;
 }
 
-img[src$=".svg"] {
-  max-width: 200px !important;
-  width: 100%;
+img {
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 24px auto;
+}
+
+.img-small {
+  width: 200px;
+}
+
+.img-medium {
+  width: 400px;
+}
+
+.img-large {
+  width: 600px;
+}
+
+@media (max-width: 600px) {
+  .img-small,
+  .img-medium,
+  .img-large {
+    width: 100%;
+  }
 }
 
 .post-date {

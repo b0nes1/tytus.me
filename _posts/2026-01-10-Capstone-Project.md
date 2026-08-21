@@ -9,6 +9,7 @@ In my final year of university, I undertook a capstone project in supramolecular
   <img src="/assets/ThorrisHammers.png">
   <img src="/assets/TytusLab.jpeg" >
 </div>
+
 ## Supramolecular chemistry?
 Supramolecular chemistry involves designing molecules with deliberately engineered interactions that allow them to self-assemble into more complex structures. Aside from being structurally interesting, supramolecular systems can be exploited for chemical sensors, functional materials such as self-healing gels or antibacterial coatings, and biomaterials for medical purposes.
 
@@ -25,7 +26,7 @@ BTP stands for *2,6-bis(1,2,3-triazol-4-yl)pyridine*, a relatively new chemical 
 ## Scope of project:
 Over the last decade, the Gunnlaugsson Group has been at the forefront of BTP research for coordination chemistry, focusing on how different structures can be attached to the BTP scaffold to achieve a desired effect.
 
-My project continued this work, functionalizing a previously studied BTP-containing ligand at a particular position on the side chain. The target ligands are shown below:
+My project continued this work, functionalizing a previously studied BTP-containing ligand at the position marker "R" on the side chain. The target ligands are shown below:
 
 ![image](/assets/BTP6.svg)
 
