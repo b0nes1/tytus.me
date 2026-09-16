@@ -7,10 +7,8 @@ layout: default
 
   {% for post in site.posts %}
     <a class="post-card" href="{{ post.url | relative_url }}">
-
       <div class="post-card-content">
         <h2>{{ post.title }}</h2>
-
         <p class="post-date">
           {{ post.date | date: "%d %B %Y" }}
         </p>
@@ -18,8 +16,6 @@ layout: default
         {% if post.description %}
           <p>{{ post.description }}</p>
         {% endif %}
-
-
     </a>
   {% endfor %}
 </div>
