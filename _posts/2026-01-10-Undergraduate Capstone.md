@@ -1,10 +1,10 @@
 ---
 layout: posts
 description: My final-year research project exploring the effect of structural changes to BTP ligands.
+title: Undergraduate Capstone
 ---
 
-# Capstone project
-
+# {{ page.title }}
 In my final year at Trinity College Dublin, I undertook a capstone project in supramolecular chemistry under the supervision of [Prof. Thorfinnur Gunnlaugsson](https://thorrigunnlaugsson.wordpress.com/). My work investigated the properties of a particular BTP-based ligand and studied how addition of functional groups at a key position could change its behaviour.
 <div class="img-side-by-side">
   <img src="/assets/ThorrisHammers.png">
@@ -22,14 +22,14 @@ BTP stands for *2,6-bis(1,2,3-triazol-4-yl)pyridine*, a relatively new chemical 
 - The ability to be functionalized at multiple positions to achieve a desired coordination effect
 - Being a tridentate, chelating ligand (an analogue of terpyridine)
 
-![image](/assets/BTP5.svg)
+<img class=centred src="{{ '/assets/BTP5.svg' | relative_url }}">
 
 ## Scope of project:
 Over the last decade, the Gunnlaugsson Group has been at the forefront of BTP research for coordination chemistry, focusing on how different structures can be attached to the BTP scaffold to achieve a desired effect.
 
 My project continued this work, functionalizing a previously studied BTP-containing ligand at the position marker "R" on the side chain. The target ligands are shown below:
 
-![image](/assets/BTP6.svg)
+<img class=centred src="{{ '/assets/BTP6.svg' | relative_url }}">
 
 ## Findings:
 My research showed that the nitro and methoxy ligands (2 & 3) could not be synthesised through a previously used click-chemistry approach, suggesting steric or electronic disruption of the CuAAC click mechanism.
