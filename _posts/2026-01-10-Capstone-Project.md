@@ -1,6 +1,6 @@
 ---
 layout: posts
-preview_image: /assets/thumbs/TytusLab.png
+description: My final-year research project exploring the effect of structural changes to BTP ligands.
 ---
 
 # Capstone project
