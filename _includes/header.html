@@ -1,7 +1,19 @@
 <header>
-    <div class="nametag">
-        <h1>Tytus Walkowiak</h1>
-        <h3>Medicinal Chemist</h3>
+    <div class="header-main">
+        <div class="nametag">
+            <h1>Tytus Walkowiak</h1>
+            <h3>Medicinal Chemist</h3>
+        </div>
+    <img class="headshot" src="{{ '/headshot low.jpg' | relative_url }}" alt="Tytus Walkowiak">
+
     </div>
-    <img class="headshot" src="headshot low.jpg">
+
+    <nav class="homebar">
+        <ul>
+            <li><a class="{% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a class="{% if page.url == '/projects/' %}active{% endif %}" href="{{ '/projects/' | relative_url }}">Projects</a></li>
+            <li><a class="{% if page.url == '/contact/' %}active{% endif %}" href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        </ul>
+        <hr>
+    </nav>
 </header>

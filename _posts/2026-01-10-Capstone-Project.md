@@ -1,10 +1,11 @@
 ---
 layout: posts
+preview_image: /assets/thumbs/TytusLab.png
 ---
 
 # Capstone project
 
-In my final year of university, I undertook a capstone project in supramolecular chemistry under the supervision of [Prof. Thorfinnur Gunnlaugsson](https://thorrigunnlaugsson.wordpress.com/). My work investigated the properties of a particular BTP-based ligand and studied how addition of functional groups at a key position could change its behaviour.
+In my final year at Trinity College Dublin, I undertook a capstone project in supramolecular chemistry under the supervision of [Prof. Thorfinnur Gunnlaugsson](https://thorrigunnlaugsson.wordpress.com/). My work investigated the properties of a particular BTP-based ligand and studied how addition of functional groups at a key position could change its behaviour.
 <div class="img-side-by-side">
   <img src="/assets/ThorrisHammers.png">
   <img src="/assets/TytusLab.jpeg" >
